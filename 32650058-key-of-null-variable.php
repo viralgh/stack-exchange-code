@@ -12,9 +12,9 @@ function _get($from, $key)
     }
     return $from[$key];
 }
-Change
+// Change
 
 $value = $var['key'];
-to
+// to
 
 $value = _get($var, 'key');
